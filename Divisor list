@@ -1,0 +1,9 @@
+number = input('Enter a number ')
+i = 1
+list1 =[]
+num = int(number)
+while i < num:
+    i += 1
+    if num % i == 0:
+        list1.append(i)
+print(list1)
